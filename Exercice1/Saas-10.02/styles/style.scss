@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 45px;
+    padding-left: 206px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 220px;
+}
+
+ 
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+ul li{
+    list-style: none;
+     
+}
+
+ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.home :hover{
+    color: #1188FF;
+}
+
+main{
+    background: url(../images/1-shape.png) no-repeat;
+    background-position: right;
+    margin-top: 80px;
+     
+}
+
+.left{
+    display: flex;
+}
+
+.main-header{
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 134px;
+    margin-bottom: 34px;
+    padding-bottom: 20px;
+}
+
+main p{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #888888;
+    margin-bottom: 45px;
+}
+
+.right{
+    margin-right: 60px;
+}
+
+button{
+    width: 324px;
+    height: 100px;
+    background-color: #338CF2;   
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.work-discr{
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    
+    justify-content: space-between;
+}
+
+p{
+    font-size: 20px;
+    color: #6B6B6B;
+    padding-right: 20px;
+}
+
+ 
+
+.work-discr header{
+    text-align: center;
+}
+
+.box a{
+    text-decoration: none;
+    color: #3D3C3C;
+    font-size: 19px;
+    margin-top: 19px;
+}
+
+.box{
+    margin-top: 20px;
+}
+
+.mobileApp{
+    display: flex;
+    text-align: center;
+    margin-top: 147px;
+}
+
+.mobile-discr{
+    display: block;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.mobile-discr-paragraf{
+    padding-top: 35px;
+}

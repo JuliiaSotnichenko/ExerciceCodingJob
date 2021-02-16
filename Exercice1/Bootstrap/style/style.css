@@ -1,0 +1,56 @@
+section,
+header {
+  padding: 5rem;
+  /* p-5 */
+}
+
+/*HEADER*/
+header {
+  height: 100vh;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*TRY*/
+h2 {
+  color: pink;
+}
+
+.btn-secondary {
+  background-color: pink;
+  border-color: white;
+}
+
+/*FEATURES*/
+h2 {
+  color: pink;
+}
+
+hr {
+  width: 10%;
+  border: 5px solid pink;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.fas {
+  color: pink;
+  padding: 2rem;
+}
+
+/*FOOTER*/
+footer {
+  padding: 2rem;
+  padding-bottom: 2rem;
+}
+
+.fab {
+  color: pink;
+  font-size: 1.5rem;
+}

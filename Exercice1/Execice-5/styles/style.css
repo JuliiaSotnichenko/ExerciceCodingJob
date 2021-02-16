@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    margin: 65px 75px 90px 80px;
+    padding: o;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    color: #000;
+
+}
+
+span{
+    color:#995504;
+    ;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+header ul li{
+  text-decoration: none;
+}
+
+.main{
+    display: flex;
+}
+
+.main-photo{
+    display: flex;
+    justify-content: space-between;
+}
